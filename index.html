@@ -7,47 +7,37 @@
   <link rel="stylesheet" href="main.css">
 </head>
 <body>
-  <div class="wrapper">
-    <table class="calculator">
-        <tr>
-          <td colspan="3"> <input class="display-box" type="text"/>0</td>
-        </tr>
-      
-        <tr>
-          <td>C</td>
-          <td>&#8592;</td>
-          <td>&#247;</td>
-        </tr>
-      
-      
-        <tr>
-          <td>7</td>
-          <td>8</td>
-          <td>9</td>
-          <td>&#215;</td>
-        </tr>
-      
-        <tr>
-          <td>4</td>
-          <td>5</td>
-          <td>6</td>
-          <td>&#8722;</td>
-        </tr>
-  
-        <tr>
-          <td>1</td>
-          <td>2</td>
-          <td>3</td>
-          <td>&#43;</td>
-        </tr>
-     
-        <tr>
-          <td>0</td>
-          <td>&equals;</td>
-        </tr>
-     
-  </table>
-</div>
-  <script src="main.js"></script>
+  <div class="container">
+    <div class="row">
+      <input class="input" type="text" style="background:black;color:white;display:inline-block;padding:1px 5px;" value="0"/>
+    </div>
+    <div class="row">
+      <button class="button C">C</button>
+      <button class="button">&#8592;</button>
+      <button class="button column">&#247;</button>
+    </div>
+    <div class="row">
+      <button class="button">7</button>
+      <button class="button">8</button>
+      <button class="button">9</button>
+      <button class="button column">&#215;</button>
+    </div>
+    <div class="row">
+      <button class="button">4</button>
+      <button class="button">5</button>
+      <button class="button">6</button>
+      <button class="button column">&#8722;</button>
+    </div>
+    <div class="row">
+      <button class="button">1</button>
+      <button class="button">2</button>
+      <button class="button">3</button>
+      <button class="button column">&#43;</button>
+    </div>
+    <div class="row">
+      <button class="button zero">0</button>
+      <button class="button column">&#61;</button>
+    </div>
+  </div>
 </body>
 </html>
